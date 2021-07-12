@@ -1,0 +1,45 @@
+*{
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(194, 142, 255);
+}
+.todo--body{
+    margin: auto 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10vh;
+    color: rgb(138, 32, 209);
+    align-items: center;
+    z-index: 8;
+
+    height: 90vh;
+    width: 80%;
+    float: right;
+    margin: 0px;
+    background-color: rgb(130, 50, 221);
+}
+.todo--title small{
+    font-size: 5vh;
+    color: rgb(173, 103, 253);
+}
+
+.todo--form {
+    right: 100px;
+    z-index: 10;
+}
+.todo--footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-size: 2vh;
+    padding: 1px;
+    color: rgb(238, 230, 243);
+    position: absolute;
+    bottom: 0px;
+}
+.todo--footer h1, span{
+    color: rgb(194, 142, 255);
+    align-self: flex-end;
+}
+.todo--footer span{
+    font-size: 2vh;
+}

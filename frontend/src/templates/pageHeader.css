@@ -1,0 +1,15 @@
+.body--header {
+    font-size: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.body--header h1{
+    color: rgb(130, 50, 221);
+    padding: 10px;
+}
+.body--header span{
+    padding: auto;
+    color: rgb(186, 147, 223);
+    padding: 10px;
+}

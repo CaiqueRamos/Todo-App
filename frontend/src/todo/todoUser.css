@@ -1,0 +1,30 @@
+.user--body{
+    background-color: rgb(130, 50, 221);
+    box-shadow: 1px 4px 4px 2px rgb(94, 26, 172);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+    z-index: 10;
+    
+}
+
+.user--identity {
+    display: flex;
+    justify-content: center;
+}
+.user--identity img{
+    width: 50%;
+    margin-top: 20vh;
+}
+.user--descriptions{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    margin-top: 4vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(194, 142, 255);
+}
