@@ -3,10 +3,11 @@
 </h1>
 <p align="center">🚀 Uma lista todo para testar conhecimento em react</p>
 
+<div align="center">
 <h3> Frontend / Backend </h3>
 
 <p> É uma simples aplicação de como funciona um Todo-list</p>
-
+</div>
 <h4 align="center"> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h4>
