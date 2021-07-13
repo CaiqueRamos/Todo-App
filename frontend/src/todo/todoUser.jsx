@@ -1,10 +1,11 @@
 import React from "react"
 import "./todoUser.css"
+import User from "./icons/user.png"
 
 export default props => (
     <div className="user--body">
         <div className="user--identity">
-            <img src="https://image.flaticon.com/icons/png/512/17/17004.png"/>
+            <img src={User}/>
         </div>
         <div className="user--descriptions">
             <h3>Caique Ramos</h3>

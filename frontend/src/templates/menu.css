@@ -31,10 +31,10 @@
     text-decoration: none;
     font-family:monospace;
     font-size: 3.5vh;
-    color: white;
+    color: rgb(186, 147, 223);
 }
 .header--menu ul li a:hover{
-    color: rgba(255, 255, 255, 0.829);
+    color: rgb(186, 147, 223);
 }
 .header--logo{
     margin-top: 0.9vh;
@@ -46,5 +46,5 @@
     display: inline;
     text-decoration: none;
     margin: 4vh;
-    color: rgba(255, 255, 255, 0.829);
+    color: rgb(186, 147, 223);
 }
