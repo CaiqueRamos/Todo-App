@@ -8,9 +8,9 @@ export default props => (
             <img src={User}/>
         </div>
         <div className="user--descriptions">
-            <h3>Caique Ramos</h3>
-            <h4>TADS - UFMS</h4>
-            <h4>Web Developer</h4>
+            <span>Caique Ramos</span>
+            <span>TADS - UFMS</span>
+            <span>Web Developer</span>
         </div>
     </div>
 )

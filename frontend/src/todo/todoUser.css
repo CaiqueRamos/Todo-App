@@ -7,7 +7,8 @@
     width: 20%;
     height: 100%;
     z-index: 10;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .user--identity {
@@ -25,6 +26,15 @@
     color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;
+
+    
+    margin-left: -70px;
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
     color: rgb(194, 142, 255);
+}
+.user--descriptions span{
+    width: 50%;
+    
 }

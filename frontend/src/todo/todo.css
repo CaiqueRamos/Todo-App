@@ -1,21 +1,28 @@
+body{
+    background-color: rgb(130, 50, 221);
+}
 *{
     font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(194, 142, 255);
+    
+    
 }
 .todo--body{
-    margin: auto 10px;
+    margin: auto 10px!important; 
     display: flex;
     flex-direction: column;
     font-size: 10vh;
     color: rgb(138, 32, 209);
     align-items: center;
     z-index: 8;
-
-    height: 90vh;
+    
+    margin-top: -70px ;
+    height: 10vh;
     width: 80%;
     float: right;
-    margin: 0px;
+    
     background-color: rgb(130, 50, 221);
+
 }
 .todo--title small{
     font-size: 5vh;
@@ -31,7 +38,7 @@
     align-items: baseline;
     justify-content: center;
     font-size: 2vh;
-    padding: 1px;
+    padding: 1px !important;
     color: rgb(238, 230, 243);
     position: absolute;
     bottom: 0px;

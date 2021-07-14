@@ -8,15 +8,15 @@ import {
 
   import { createBrowserHistory } from "history"
 
-import About from "../about/about"
+import Login from "../login/login"
 import Todo from "../todo/todo"
 
 export default props => (
     <Router history = {createBrowserHistory}>
         <Switch>
-            <Route exact path='/home' component={Todo}/>
-            <Route path="/about" component={About}/>
-            <Redirect path="*" to="/home"/>
+            <Route exact path='/todo' component={Todo}/>
+            <Route path="/login" component={Login}/>
+            <Redirect path="*" to="/login"/>
         </Switch>
     </Router>
 )   

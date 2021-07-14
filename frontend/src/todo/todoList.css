@@ -1,6 +1,9 @@
 .list--body{
     width: 100%;
     font-size: 5vh;
+    margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
 }
 thead{
     float: left;
